@@ -14,6 +14,12 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                "primaryDark": "#1D232A",
+                "secondaryDark": "#242A31",
+                "laravel": "#F23A22",
+                "react" : "#61DAFB",
+            }
         },
     },
     plugins: [],

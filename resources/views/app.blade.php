@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     @inertiaHead
 </head>
-<body>
+<body class="bg-primaryDark">
     @inertia
     
 </body>
