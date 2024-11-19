@@ -1,4 +1,3 @@
-
 import { motion } from "motion/react"
 
 const Navbar = () => {
@@ -21,8 +20,6 @@ const Navbar = () => {
                     <motion.button 
                         whileTap={{ scale: 0.9, rotate: 3 }}
                         whileHover={{ scale: 1.1 }}
-                        onHoverStart={event => {}}
-                        onHoverEnd={event => {}}
                         className="border-2 border-react text-react px-8 py-2 rounded-lg font-bold"                        
                     >
                        Sign Up
@@ -30,8 +27,6 @@ const Navbar = () => {
                     <motion.button 
                         whileTap={{ scale: 0.9, rotate: 3 }}
                         whileHover={{ scale: 1.1 }}
-                        onHoverStart={event => {}}
-                        onHoverEnd={event => {}}
                         className="bg-react text-primaryDark px-8 py-2 rounded-lg font-bold"                
                     >
                        Register
