@@ -6,7 +6,6 @@ const Register = () => {
     return (
         <RegisLayout />
     );
-
 }
 
 export default Register;

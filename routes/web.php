@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\GeneralController;
 use Illuminate\Support\Facades\Route;
@@ -14,3 +15,4 @@ Route::post('/register', [RegisterController::class, 'store']);
 
 
 // Auth Routes - Login
+Route::get('/login', [LoginController::class, 'index'])->name('login');

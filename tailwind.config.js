@@ -14,6 +14,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage : {
+                'revalit-gradient': 'linear-gradient(180deg, #1D232A 50%, #00D8FF 204.94%)'
+            },
             colors: {
                 "primaryDark": "#1D232A",
                 "secondaryDark": "#242A31",
